@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brushio — Smart Dental Care</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background-color: #14192D;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(12, 155, 137, 0.15);
+            color: #0C9B89;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            padding: 8px 20px;
+            border-radius: 20px;
+            margin-bottom: 32px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            margin-bottom: 40px;
+        }
+
+        .logo img {
+            width: 52px;
+            height: 52px;
+            border-radius: 14px;
+        }
+
+        .logo-text {
+            font-size: 52px;
+            font-weight: 700;
+            color: #0C9B89;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+
+        h1 span {
+            color: #0C9B89;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #8a8fa8;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .app-store-btn {
+            display: inline-block;
+            background-color: #0C9B89;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 12px;
+            transition: background-color 0.2s;
+            margin-bottom: 16px;
+        }
+
+        .app-store-btn:hover {
+            background-color: #0a8577;
+        }
+
+        .contact {
+            margin-top: 16px;
+            margin-bottom: 48px;
+        }
+
+        .contact-label {
+            color: #8a8fa8;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .contact a {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .contact a:hover {
+            color: #ffffff;
+        }
+
+        .links {
+            display: flex;
+            gap: 32px;
+            justify-content: center;
+        }
+
+        .links a {
+            color: #0C9B89;
+            font-size: 14px;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .links a:hover {
+            color: #8a8fa8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">Available on the App Store</div>
+
+        <div class="logo">
+            <img src="./tooth.png" alt="Brushio">
+            <span class="logo-text">Brushio</span>
+        </div>
+
+        <h1>Take care of your teeth<br><span>the smart way.</span></h1>
+
+        <p class="subtitle">
+            Brushio is a dental care companion that helps you brush properly with a guided timer, track streaks and statistics, and keep a log of your dentist visits.
+        </p>
+
+        <a href="https://apps.apple.com/app/brushio/id6771890992" class="app-store-btn">
+            Download on the App Store
+        </a>
+
+        <div class="contact">
+            <p class="contact-label">Need help? Contact Support:</p>
+            <a href="mailto:brushio.support@gmail.com">brushio.support@gmail.com</a>
+        </div>
+
+        <div class="links">
+            <a href="https://brushio.github.io/brushio-legal/privacy.html">Privacy Policy</a>
+            <a href="https://brushio.github.io/brushio-legal/terms.html">Terms of Use</a>
+        </div>
+    </div>
+</body>
+</html>
